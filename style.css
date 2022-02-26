@@ -1,0 +1,45 @@
+@font-face {
+    font-family: 'Matter Bold';
+    src: url("../fonts/MatterSQ-Bold.eot");
+    src: url("../fonts/MatterSQ-Bold.eot?#iefix") format("embedded-opentype"),
+    url("../fonts/MatterSQ-Bold.woff2") format("woff2"),
+    url("../fonts/MatterSQ-Bold.woff") format("woff"),
+    url("../fonts/MatterSQ-Bold.ttf") format("truetype");
+    font-weight: bold;
+    font-style: normal
+}
+@font-face {
+    font-family: 'Matter';
+    src: url("../fonts/Matter-Light.eot");
+    src: url("../fonts/Matter-Light.eot?#iefix") format("embedded-opentype"),
+    url("../fonts/Matter-Light.woff2") format("woff2"),
+    url("../fonts/Matter-Light.woff") format("woff"),
+    url("../fonts/Matter-Light.ttf") format("truetype");
+    font-weight: 300;
+    font-style: normal
+}
+
+html{
+    font-family: "Matter";
+}
+
+.yellow-bg{
+    background-color: #FFCC00;
+}
+
+.row{
+    display: flex;
+    flex-wrap: wrap;
+}
+
+
+header {
+    font-size: 36px;
+    font-size: 36px;
+    font-size: 3.6rem;
+    line-height: 36px;
+    line-height: 36px;
+    line-height: 3.6rem;
+    font-family: "Matter Bold";
+}
+
